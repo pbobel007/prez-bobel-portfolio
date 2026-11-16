@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prez Bobel — Enterprise & SAP Program Delivery</title>
+    <meta
+      name="description"
+      content="Prez Bobel — Project Manager & Scrum Master delivering enterprise, government, and SAP programs across M365, S/4HANA, and infrastructure."
+      data-meta-description
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="scroll-progress" data-progress aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="logo" href="#top">Prez<span>.</span>Bobel</a>
+      <div class="header-right">
+        <div class="lang-switch" role="group" aria-label="Language" data-lang-switch>
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="pl" aria-pressed="false">PL</button>
+          <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#journey" data-i18n="navJourney">Journey</a>
+          <a href="#portfolio" data-i18n="navPortfolio">Portfolio</a>
+          <a href="#contact" class="nav-cta" data-i18n="navContact">Contact</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle data-i18n-aria="openMenu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-nav" data-mobile-nav>
+      <div class="lang-switch lang-switch--mobile" role="group" aria-label="Language" data-lang-switch-mobile>
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="pl" aria-pressed="false">PL</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#journey" data-i18n="navJourney">Journey</a>
+      <a href="#portfolio" data-i18n="navPortfolio">Portfolio</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </div>
+
+    <main id="top">
+      <section class="hero" data-reveal>
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-orb hero-orb--a"></div>
+          <div class="hero-orb hero-orb--b"></div>
+          <div class="hero-scan"></div>
+          <div class="hero-frame"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="brand" aria-label="Prez Bobel">Prez Bobel</p>
+          <h1 data-i18n="heroHeadline">Programs that ship in the hardest rooms.</h1>
+          <p class="lede" data-i18n="heroLede">
+            Enterprise, government &amp; SAP delivery — M365 migrations, S/4HANA
+            transformations, and cross-stakeholder execution where complexity is the default.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#portfolio" data-i18n="ctaPortfolio">View portfolio</a>
+            <a class="btn btn-ghost" href="#journey" data-i18n="ctaJourney">Career journey</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+          <h2 data-i18n="aboutHeadline">Built for complexity. Wired for delivery.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy" data-reveal data-about-copy>
+            <!-- hydrated -->
+          </div>
+          <aside class="about-meta" data-reveal>
+            <div class="meta-block">
+              <h3 data-i18n="credentials">Credentials</h3>
+              <ul data-credentials></ul>
+            </div>
+            <div class="meta-block">
+              <h3 data-i18n="languagesLabel">Languages</h3>
+              <ul data-languages></ul>
+            </div>
+            <div class="meta-block">
+              <h3 data-i18n="focus">Focus</h3>
+              <div class="chip-row" data-focus></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="journey" class="section journey">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow" data-i18n="journeyEyebrow">Career Journey</p>
+          <h2 data-i18n="journeyHeadline">A path through enterprise, telecom, SAP, and government.</h2>
+          <p class="section-lede" data-i18n="journeyLede">
+            From engineering leadership at TELUS to federal M365 and SAP transformation
+            programs — delivery ownership at every altitude.
+          </p>
+        </div>
+        <ol class="timeline" data-timeline>
+          <!-- hydrated -->
+        </ol>
+      </section>
+
+      <section id="portfolio" class="section portfolio">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow" data-i18n="portfolioEyebrow">Portfolio</p>
+          <h2 data-i18n="portfolioHeadline">Selected programs &amp; outcomes.</h2>
+          <p class="section-lede" data-i18n="portfolioLede">
+            Flagship delivery across government, SAP/ERP, telecom, and financial services.
+          </p>
+        </div>
+        <div class="portfolio-list" id="portfolio-list" data-reveal>
+          <!-- hydrated -->
+        </div>
+        <p class="portfolio-note" data-reveal>
+          <span data-i18n="portfolioNoteBefore">Full case context and recommendations available on</span>
+          <a
+            href="https://www.linkedin.com/in/prez-bobel-73500511"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="portfolioNoteLink"
+            >LinkedIn</a
+          >.
+        </p>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-panel" data-reveal>
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 data-i18n="contactHeadline">Let’s talk delivery.</h2>
+          <p data-i18n="contactBody">
+            Open to conversations on enterprise programs, SAP S/4HANA transformations,
+            government initiatives, and high-stakes infrastructure delivery.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:prez.bobel@outlook.com">prez.bobel@outlook.com</a>
+            <a
+              class="btn btn-ghost"
+              href="https://www.linkedin.com/in/prez-bobel-73500511"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="linkedinCta"
+              >LinkedIn profile</a
+            >
+          </div>
+          <p class="contact-loc" data-location>Toronto, Ontario, Canada</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span data-year></span> Prez Bobel</span>
+      <span class="footer-mark" data-i18n="footerMark">Enterprise delivery. Edgy execution.</span>
+    </footer>
+
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>

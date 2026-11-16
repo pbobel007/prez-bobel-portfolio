@@ -1,0 +1,10 @@
+node_modules/
+portfolio/node_modules/
+portfolio/dist/
+portfolio/coverage/
+.env
+.env.*
+*.log
+.DS_Store
+Linkedin.pdf
+.getignore

@@ -1,0 +1,9 @@
+{
+  "name": "prez-bobel-site",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix portfolio run start:dev",
+    "build": "npm --prefix portfolio run build",
+    "start:prod": "npm --prefix portfolio run start:prod"
+  }
+}
