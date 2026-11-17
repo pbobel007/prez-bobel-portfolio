@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: prez-bobel-portfolio
+    name: prez-bobel
     runtime: node
     plan: free
     rootDir: portfolio
