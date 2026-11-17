@@ -73,7 +73,7 @@ export type LocalizedPage = {
 };
 
 const linkedin = 'https://www.linkedin.com/in/prez-bobel-73500511';
-const email = 'prez.bobel@outlook.com';
+const email = 'workwithprezbobel@gmail.com';
 
 export const pages: Record<Locale, LocalizedPage> = {
   en: {

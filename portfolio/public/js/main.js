@@ -113,6 +113,12 @@
 
     const loc = document.querySelector("[data-location]");
     if (loc) loc.textContent = profile.location;
+
+    const emailEl = document.querySelector("[data-email]");
+    if (emailEl && profile.email) {
+      emailEl.textContent = profile.email;
+      emailEl.setAttribute("href", `mailto:${profile.email}`);
+    }
   };
 
   const renderJourney = (items) => {
